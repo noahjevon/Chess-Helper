@@ -9,14 +9,17 @@ function getTile(tile, row, col) {
 
     switch(piece) {
         case "pawn":
-            if (row == 8) {
+            if (row == 6) {
                 let newRow = row - 2;
                 let newCol = col;
-                paintTile(newRow, newCol)
-            } else {
+                paintTile(newRow, newCol) 
+            } else if (row >= 6) {
+
+            }
+            else {
                 let newRow = row - 1;
                 let newCol = col;
-                paintTile(newRow, newCol)
+                paintTile(newRow, newCol) 
             }
             break;
         case "rook":

@@ -1,0 +1,30 @@
+.intro {
+text-align: center;
+}
+
+.select {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    height: auto;
+    width: auto;
+}
+
+.col-sm {
+    height: 50px;
+    width: 50px;
+    padding: 50px;
+    margin: 2px;
+    border-style: solid;
+}
+
+@media only screen and (max-width: 800px) {
+    .col-sm {
+        min-width: 10%;
+        min-height: 10%;
+    }   
+  }

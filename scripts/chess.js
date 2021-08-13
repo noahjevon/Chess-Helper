@@ -92,7 +92,7 @@ function getTile(tile, row, col) {
             break;
     }
 
-    // paintTile function takes row and colm applies red background color
+    // paintTile function takes row and col, applies red background color
     function paintTile(row, col) {
         let grid = document.getElementById("row-" + row + "-col-" + col) // Initialise grid variable
         if (grid !== null) { // Check if grid is not null
